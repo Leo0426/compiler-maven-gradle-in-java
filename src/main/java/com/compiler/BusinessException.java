@@ -1,0 +1,18 @@
+package com.compiler;
+
+/**
+ * business exception.
+ *
+ * @author LeoLu
+ * @since 2021-03-04
+ **/
+public class BusinessException extends Exception {
+
+    public BusinessException(String message) {
+        super(message);
+    }
+
+    public BusinessException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}
